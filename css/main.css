@@ -1,0 +1,18 @@
+.completed span{
+    color: #afa7a7;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.incomplete span{
+    cursor: pointer;
+}
+
+.todo-list {
+    list-style-type: none;
+}
+
+.todo-list div {
+    background-color: #eee;
+    cursor: pointer;
+}

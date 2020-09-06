@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Yagya Singh Rajawat">
+    <title>Todo list</title>
+
+    <!-- Bootstrap -->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>todo</title>
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center">Todo List</h2>
+
+        <div class="form-group d-flex flex-column justify-content-center my-5">
+            <label for="itemInput">Add a Task</label>
+            <input type="text" class="form-control" name="" id="itemInput" >
+        </div>
+        <div class="d-flex flex-row justify-content-center my-5">
+            <button id="addButton" class="btn btn-primary">Add To List</button>
+        </div>
+        <div class="my-5 d-flex flex-column justify-content-between">
+            <div id="todoList" class="text-center todo-list"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
