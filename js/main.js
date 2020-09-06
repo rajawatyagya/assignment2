@@ -1,25 +1,13 @@
 const addButton = document.getElementById('addButton');
 const addInput = document.getElementById('itemInput');
 const todoList = document.getElementById('todoList');
-// const todoArray = [];
 
-
-// function changeListArray(value, status) {
-//     for(let i=0; i < todoArray.length; i++){
-//
-//         if(todoArray[i].content === value){
-//             todoArray[i].status = status;
-//             break;
-//         }
-//     }
-// }
 
 function changeToComp() {
     this.classList.remove('incomplete');
     this.classList.add('completed');
     this.removeEventListener('click',changeToComp);
     this.addEventListener('click',changeToInComp);
-    // changeListArray(this.firstChild.innerText,'complete');
 }
 
 function changeToInComp() {
@@ -27,21 +15,11 @@ function changeToInComp() {
     this.classList.add('incomplete');
     this.removeEventListener('click',changeToInComp);
     this.addEventListener('click',changeToComp);
-    // changeListArray(this.firstChild.innerText,'incomplete');
 }
 
 function removeItem() {
     let parent = this.parentElement.parentElement;
     parent.removeChild(this.parentElement);
-
-    // let data = this.parentElement.firstChild.firstChild.innerText;
-    // for(let i=0; i < todoArray.length; i++){
-    //
-    //     if(todoArray[i].content === data){
-    //         todoArray.splice(i,1);
-    //         break;
-    //     }
-    // }
 }
 
 function createItemDom(value, status) {
@@ -73,13 +51,6 @@ function createItemDom(value, status) {
 }
 
 function addToList() {
-    // Not needed as No storage used.
-    // let newItem = {
-    //     content: addInput.value,
-    //     status: 'incomplete'
-    // }
-    // todoArray.push(newItem);
-
     let item = createItemDom(addInput.value, 'incomplete');
     todoList.appendChild(item);
     addInput.value = '';
