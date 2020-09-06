@@ -51,9 +51,17 @@ function createItemDom(value, status) {
 }
 
 function addToList() {
-    let item = createItemDom(addInput.value, 'incomplete');
-    todoList.appendChild(item);
-    addInput.value = '';
+    if(addInput.value) {
+        let item = createItemDom(addInput.value, 'incomplete');
+        todoList.appendChild(item);
+        addInput.value = '';
+    }
 }
 
 addButton.addEventListener('click', addToList);
+addInput.addEventListener('keyup', (ev => {
+    if (ev.key === 'Enter') {
+        ev.preventDefault();
+        addToList();
+    }
+}));

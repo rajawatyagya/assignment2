@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="518397b2-7fcb-41d4-b2e2-9f9a142d03bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="518397b2-7fcb-41d4-b2e2-9f9a142d03bd" name="Default Changelist" comment="remove extra code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
@@ -22,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -57,12 +75,36 @@
       <updated>1599292932477</updated>
       <workItem from="1599292933659" duration="721000" />
       <workItem from="1599324307795" duration="1795000" />
-      <workItem from="1599382367424" duration="12505000" />
+      <workItem from="1599382367424" duration="12870000" />
+      <workItem from="1599416169824" duration="399000" />
     </task>
+    <task id="LOCAL-00001" summary="remove extra code">
+      <created>1599400246989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599400246989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove extra code" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove extra code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="804" y="421" width="311" height="206" key="Github.ShareDialog" timestamp="1599394367994">
@@ -77,10 +119,14 @@
       <screen x="0" y="0" width="1920" height="1042" />
     </state>
     <state x="449" y="156" width="1022" height="736" key="SettingsEditor/0.0.1920.1042@0.0.1920.1042" timestamp="1599399282235" />
-    <state x="555" y="257" width="800" height="534" key="Vcs.Push.Dialog.v2" timestamp="1599399287419">
+    <state x="555" y="257" width="800" height="534" key="Vcs.Push.Dialog.v2" timestamp="1599400248476">
       <screen x="0" y="0" width="1920" height="1042" />
     </state>
-    <state x="555" y="257" width="800" height="534" key="Vcs.Push.Dialog.v2/0.0.1920.1042@0.0.1920.1042" timestamp="1599399287419" />
+    <state x="555" y="257" width="800" height="534" key="Vcs.Push.Dialog.v2/0.0.1920.1042@0.0.1920.1042" timestamp="1599400248476" />
+    <state x="741" y="436" width="438" height="176" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599400466761">
+      <screen x="0" y="0" width="1920" height="1042" />
+    </state>
+    <state x="741" y="436" width="438" height="176" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1042@0.0.1920.1042" timestamp="1599400466761" />
     <state x="703" y="421" width="503" height="205" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599399974992">
       <screen x="0" y="0" width="1920" height="1042" />
     </state>
